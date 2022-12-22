@@ -64,3 +64,7 @@ Vault
 Root Token: hvs.M40dAEMTOLDEIHahn4hfiMQf
 ![8](https://user-images.githubusercontent.com/54935204/209161965-58cca131-40a6-482a-8c38-91f29c16bbf0.png)
 
+![lab1](https://user-images.githubusercontent.com/54935204/209166241-984aaca7-2a50-41de-a5e8-2bff3533d16b.png)
+
+
+
