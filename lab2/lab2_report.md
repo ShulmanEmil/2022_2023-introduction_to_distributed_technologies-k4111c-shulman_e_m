@@ -51,7 +51,8 @@ spec:
         - name: REACT_APP_USERNAME
           value: Emil
         - name: REACT_APP_COMPANY_NAME
-          value: ITMO```
+          value: ITMO
+```
 Запускаем 2 экземпляр   
 kubectl create -f mn.yaml
 Проверяем
