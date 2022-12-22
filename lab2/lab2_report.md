@@ -4,7 +4,7 @@ Course: [Introduction to distributed technologies](https://github.com/itmo-ict-f
 Year: 2022/2023
 Group: K4111C
 Author: Shulman Emil
-Lab: Lab1
+Lab: Lab2
 Date of create: 22.12.2022
 Date of finished:
 
