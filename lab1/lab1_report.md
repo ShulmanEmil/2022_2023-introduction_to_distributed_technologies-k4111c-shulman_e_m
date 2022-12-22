@@ -52,7 +52,7 @@ spec:
       ports:
         - containerPort: 8200
 ```
-``` kubectl create -f vault_pod.yaml``` 
+kubectl create -f vault_pod.yaml
 
 ## Проверяем pod
 kubectl get pods
