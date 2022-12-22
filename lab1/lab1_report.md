@@ -1,12 +1,12 @@
-University: [ITMO University](https://itmo.ru/ru/)
-Faculty: [FICT](https://fict.itmo.ru)
-Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+University: ITMO University
+Faculty: FICT
+Course: Introduction to distributed technologies
 Year: 2022/2023
-Group: K4111C
+Group: K4111c
 Author: Shulman Emil
 Lab: Lab1
 Date of create: 22.12.2022
-Date of finished:
+Date of finished: 
 
 
 Создание контейнера vault
