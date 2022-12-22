@@ -68,6 +68,7 @@ kubectl create -f mn.yaml
 
 Проверяем
 kubectl get deployments
+
 ![3](https://user-images.githubusercontent.com/54935204/209171695-591424a5-f2ae-4a88-a91f-d4c1078e32da.png)
 
 
