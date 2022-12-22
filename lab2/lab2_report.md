@@ -17,6 +17,8 @@ Date of finished:
 ![1](https://user-images.githubusercontent.com/54935204/209168333-819c4ec4-ffc5-45e5-af5b-ca0d498c6daa.png)
 
 Создаем контейнер - docker run -d --name frontend-container ifilyaninitmo/itdt-contained-frontend:master
+
+
 Проверяем - docker ps -a
 
 
@@ -55,6 +57,7 @@ spec:
 ```
 Запускаем 2 экземпляр   
 kubectl create -f mn.yaml
+
 Проверяем
 kubectl get deployments
 ![3](https://user-images.githubusercontent.com/54935204/209171695-591424a5-f2ae-4a88-a91f-d4c1078e32da.png)
@@ -63,15 +66,19 @@ kubectl get deployments
 Создание сервиса frontend-service
 
 Сервис для доступа к развертыванию - minikube kubectl -- expose deployment frontend --port=3000 --target-port=3000 --name=frontend-service --type=LoadBalance
+
 ![4](https://user-images.githubusercontent.com/54935204/209172222-5ac92a80-0b57-4d96-b925-6dcdb5e0477c.png)
 
 Порт -  minikube kubectl -- port-forward service/frontend-service 3000:3000
+
 ![5](https://user-images.githubusercontent.com/54935204/209172486-47fbe2c1-a402-4026-a6d3-749c98219525.png)
 
 http://localhost:3000
+
 ![6](https://user-images.githubusercontent.com/54935204/209172752-c9fd952b-90ee-4156-98d1-7a70eb8f62fc.png)
 
 Логи
+
 ![7](https://user-images.githubusercontent.com/54935204/209173080-496c48bd-52aa-47ea-9f04-8bc5c579d86b.png)
 
 Удоляем безумие
