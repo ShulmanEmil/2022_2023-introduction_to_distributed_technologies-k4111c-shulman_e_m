@@ -1,15 +1,23 @@
 University: [ITMO University](https://itmo.ru/ru/)
+
 Faculty: [FICT](https://fict.itmo.ru)
+
 Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+
 Year: 2022/2023
+
 Group: K4111C
+
 Author: Shulman Emil
+
 Lab: Lab2
+
 Date of create: 22.12.2022
+
 Date of finished:
 
 
-Создание frontend-container
+## Создание frontend-container
 
 Скачиваем образ - docker pull ifilyaninitmo/itdt-contained-frontend:master
 Проверяем - docker images
@@ -24,7 +32,7 @@ Date of finished:
 
 ![2](https://user-images.githubusercontent.com/54935204/209168902-50a8e7dd-ede6-49fc-9250-653594412e83.png)
 
-Создание Deployment
+## Создание Deployment
 
 Запуск minikube
 
@@ -63,7 +71,7 @@ kubectl get deployments
 ![3](https://user-images.githubusercontent.com/54935204/209171695-591424a5-f2ae-4a88-a91f-d4c1078e32da.png)
 
 
-Создание сервиса frontend-service
+## Создание сервиса frontend-service
 
 Сервис для доступа к развертыванию - minikube kubectl -- expose deployment frontend --port=3000 --target-port=3000 --name=frontend-service --type=LoadBalance
 
