@@ -20,16 +20,19 @@ Date of finished:
 ## Создание контейнера vault
 Скачать - docker pull vault
 docker images
+
 ![1](https://user-images.githubusercontent.com/54935204/209160265-94d10745-b785-46c8-ab68-7eb49fca50ec.png)
 
 Создаем контейнер - docker run -d --name vault vault.
 vault - docker ps -a.
+
 ![2](https://user-images.githubusercontent.com/54935204/209160603-e1e38692-d786-49d1-8ade-036214993303.png)
 
 
 ## Создание Pod
 Запускаем minikube - minikube start.
 kubectl get nodes
+
 ![3](https://user-images.githubusercontent.com/54935204/209160839-0a4d1fa4-ed90-4e44-bbb2-65fa7bdecdfa.png)
 
 Манифест 
@@ -73,6 +76,7 @@ Vault
 
 Токен minikube kubectl -- logs service/vault
 Root Token: hvs.M40dAEMTOLDEIHahn4hfiMQf
+
 ![8](https://user-images.githubusercontent.com/54935204/209161965-58cca131-40a6-482a-8c38-91f29c16bbf0.png)
 
 ![lab1](https://user-images.githubusercontent.com/54935204/209166241-984aaca7-2a50-41de-a5e8-2bff3533d16b.png)
