@@ -13,6 +13,7 @@ Date of finished:
 Скачать - docker pull vault
 docker images
 ![1](https://user-images.githubusercontent.com/54935204/209160265-94d10745-b785-46c8-ab68-7eb49fca50ec.png)
+
 Создаем контейнер - docker run -d --name vault vault.
 vault - docker ps -a.
 ![2](https://user-images.githubusercontent.com/54935204/209160603-e1e38692-d786-49d1-8ade-036214993303.png)
@@ -43,11 +44,13 @@ kubectl create -f vault_pod.yaml
 
 Проверяем pod
 kubectl get pods
+
 ![4](https://user-images.githubusercontent.com/54935204/209161371-a6bc95d8-bc58-4ca0-ad51-3c03eb93a429.png)
 
 
 Создание сервиса
 Сервис доступа к Pod - minikube kubectl -- expose pod vault --type=NodePort --port=8200.
+
 ![5](https://user-images.githubusercontent.com/54935204/209161609-1dead65d-4d52-4cbd-b1bc-d0a4ae108603.png)
 
 Локальный - minikube kubectl -- port-forward service/vault 8200:8200.
