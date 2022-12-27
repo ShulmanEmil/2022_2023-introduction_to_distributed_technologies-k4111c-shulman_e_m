@@ -74,11 +74,9 @@ spec:
               key: react_app_company_name
 ```
 
-Создаем контроллер  
-kubectl create -f replicaset.yaml
+Создаем контроллер  ```kubectl create -f replicaset.yaml```
 
-Проверяем
-kubectl get rs
+Проверяем ```kubectl get rs```
 
 ![2](https://user-images.githubusercontent.com/54935204/209650276-91cd44db-9667-4dd5-839a-1ecfe6171529.png)
 
