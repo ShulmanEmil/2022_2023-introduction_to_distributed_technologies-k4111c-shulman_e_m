@@ -1,0 +1,19 @@
+University: [ITMO University](https://itmo.ru/ru/)
+
+Faculty: [FICT](https://fict.itmo.ru)
+
+Course: [Introduction to distributed technologies](https://github.com/itmo-ict-faculty/introduction-to-distributed-technologies)
+
+Year: 2022/2023
+
+Group: K4111C
+
+Author: Shulman Emil
+
+Lab: Lab4
+
+Date of create: 22.12.2022
+
+Date of finished:
+
+## Ход работы
