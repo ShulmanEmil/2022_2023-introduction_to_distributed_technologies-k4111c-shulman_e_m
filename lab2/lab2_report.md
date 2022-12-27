@@ -14,7 +14,7 @@ Lab: Lab2
 
 Date of create: 22.12.2022
 
-Date of finished:
+Date of finished: 22.12.2022
 
 
 ## Создание frontend-container
