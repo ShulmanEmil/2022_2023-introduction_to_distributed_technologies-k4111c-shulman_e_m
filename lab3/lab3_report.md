@@ -30,9 +30,9 @@ data:
   react_app_company_name: "ITMO"
 ```
 
-Создаем kubectl create -f configmap.yaml.
+Создаем ```kubectl create -f configmap.yaml```
 
-Проверяем kubectl get configmaps
+Проверяем ```kubectl get configmaps```
 
 ![1](https://user-images.githubusercontent.com/54935204/209647856-7ec7492c-1282-45f3-b4ed-c32fd09b5773.png)
 
