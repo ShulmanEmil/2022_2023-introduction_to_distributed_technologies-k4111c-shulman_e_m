@@ -1,0 +1,19 @@
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+  name: zone-amsterdam-ippool
+spec:
+  cidr: 10.0.0.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: zone == "amsterdam"
+---
+apiVersion: projectcalico.org/v3
+kind: IPPool
+metadata:
+  name: zone-praga-ippool
+spec:
+  cidr: 192.168.17.0/24
+  ipipMode: Always
+  natOutgoing: true
+  nodeSelector: zone == "praga"

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: ifilyaninitmo-deployment
+    labels:
+        app: ifilyaninitmo-deployment
+spec:
+    replicas: 2
+    selector:
+        matchLabels:
+            app: ifilyaninitmo-deployment
+    template:
+        metadata:
+            labels:
+                app: ifilyaninitmo-deployment
+        spec:
+            containers:
+            - name: ifilyaninitmo-deployment
+              image: ifilyaninitmo/itdt-contained-frontend:master
+              ports:
+              - containerPort: 3000
+              env:
+                - name: REACT_APP_USERNAME
+                  value: Emil
+                - name: REACT_APP_COMPANY_NAME
+                  value: ITMO
