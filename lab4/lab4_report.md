@@ -218,3 +218,6 @@ spec:
 Деплоим ```kubectl apply -f deployment.yaml -f service.yaml```
 
 ![Снимок экрана от 2022-12-27 15-50-50](https://user-images.githubusercontent.com/54935204/209668404-cc83c537-c312-4fea-88b8-b4720fb957b0.png)
+
+
+![photo_2022-12-29_15-03-31](https://user-images.githubusercontent.com/54935204/209947754-b74bde96-4bd6-47d3-aa66-fdbd2255f4a6.jpg)
